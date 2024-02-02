@@ -132,7 +132,7 @@
           <img src="dinohead400.png"
                srcset="dinohead120.png 120w,
                        dinohead400.png 400w"
-               sizes="(max-width:500px) 120px, 400px"
+               sizes="(max-width: 500px) 120px, 400px"
                alt="dino head">
       </a>
       
@@ -155,11 +155,12 @@
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
-        <source media="(min-width: 600px)" srcset="large-image.jpg">
-        <source media="(min-width: 600px)" srcset="medium-image.jpg">
+        <picture>
+          <source media="(max-width: 600px)" srcset="red-panda600.jpg">
+          <img src="red-panda.jpg" alt="red-panda landscape">
+      </picture>
         <!-- Default image source for smaller screens -->
-        <img src="red-panda.jpg" alt="Description of the image">
+         
       </div>
 
     </main>
