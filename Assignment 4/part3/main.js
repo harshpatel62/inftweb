@@ -1,7 +1,7 @@
 /*
  * Name - harsh Patel
  * Assignment - 4 part 3
- * CSS file
+ * JS file
  * Date 29 March 2024
  * */
 const canvas = document.querySelector("canvas");
